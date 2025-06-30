@@ -68,8 +68,8 @@ QChart * MainWindow::createBarChart()
     QChart* chart = new QChart();
     chart->addSeries(series);
     chart->setTitle("Game Companies Revenue By Year");
-
     chart->setAnimationOptions(QChart::AllAnimations);
+
     QStringList categories;
     categories << "2020" << "2021" << "2022" << "2023";
 
@@ -103,8 +103,8 @@ QChart* MainWindow::createHBarChart()
     QChart* chart = new QChart();
     chart->addSeries(series);
     chart->setTitle("Game Companies Revenue By Year");
-
     chart->setAnimationOptions(QChart::AllAnimations);
+
     QStringList categories;
     categories << "2020" << "2021" << "2022" << "2023";
 
@@ -160,6 +160,7 @@ QChart* MainWindow::createLineChart()
     chart->addSeries(microsoft);
     chart->addSeries(activision);
     chart->setTitle("Game Companies Revenue Over Years");
+    chart->setAnimationOptions(QChart::AllAnimations);
 
     QValueAxis* axisX = new QValueAxis();
     axisX->setRange(2020, 2023);
@@ -203,6 +204,7 @@ QChart* MainWindow::createPieChart()
     QChart* chart = new QChart();
     chart->addSeries(series);
     chart->setTitle("Game Companies Revenue Share 2023");
+    chart->setAnimationOptions(QChart::AllAnimations);
     chart->legend()->setVisible(true);
     chart->legend()->setAlignment(Qt::AlignRight);
 

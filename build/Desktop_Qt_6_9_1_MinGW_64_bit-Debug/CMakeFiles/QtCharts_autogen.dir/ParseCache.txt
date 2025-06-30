@@ -464,6 +464,6 @@ C:/Users/user/Desktop/Blo9Blo9/Projects/Qt/QtCharts/mainwindow.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/user/Desktop/Blo9Blo9/Projects/Qt/QtCharts/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug/QtCharts_autogen/moc_predefs.h
  mdp:C:/Users/user/Desktop/Blo9Blo9/Projects/Qt/QtCharts/mainwindow.h
+C:/Users/user/Desktop/Blo9Blo9/Projects/Qt/QtCharts/main.cpp
 C:/Users/user/Desktop/Blo9Blo9/Projects/Qt/QtCharts/mainwindow.cpp
  uic:ui_mainwindow.h
-C:/Users/user/Desktop/Blo9Blo9/Projects/Qt/QtCharts/main.cpp
